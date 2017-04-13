@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Tuts</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="facebook_app_id">277141999391437</string>
+    <string name="name">name :</string>
+    <string name="instructor">Instructor :</string>
+    <string name="price">Price :</string>
+    <string name="timeline">Timeline</string>
+
+    <string name="day"><i/>Day :</string>
+    <string name="from"><b/>\u00A0from :</string>
+    <string name="to"><u/>\u00A0To :</string>
+
+    <string name="action_profile">Profile</string>
+</resources>

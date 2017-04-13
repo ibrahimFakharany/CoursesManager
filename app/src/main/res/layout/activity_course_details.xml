@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_course_details"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="exampleoncreatingfixedfragment.example.com.tuts.CourseDetails">
+
+    <ImageView
+        android:id="@+id/header_image_course"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        />
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="10dp">
+        <Button
+            android:id="@+id/reserve_course"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="enroll"
+            android:textAllCaps="true"
+            android:layout_gravity="right"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:id="@+id/name_of_course"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/name"/>
+            <TextView
+                android:id="@+id/value_name_of_course"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HTML AND CSS"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:id="@+id/instructor_of_course"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/instructor"/>
+            <TextView
+                android:id="@+id/value_instructor_of_course"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="IBRAHIM ELFAKHARANY"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:id="@+id/price_of_course"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/price"/>
+            <TextView
+                android:id="@+id/value_price_of_course"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="200 LE"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/timeline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/timeline"
+            android:layout_marginTop="20dp"/>
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_time_line"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+</LinearLayout>
